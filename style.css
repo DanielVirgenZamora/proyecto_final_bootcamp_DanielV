@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body {    
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+/*barra de naegacion*/
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 63px;
+    background: #00718a;
+    position: fixed;
+    width: 100vw;
+}
+
+.menuitems{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.menuitems li{
+    border-radius: 4px;
+    margin: 0 5px;
+}
+
+
+
+ul.show{
+    top: 65px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.menuitems a {
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+}
+
+.menuitems a:hover {
+    background: rgba(0, 0, 0, .6);
+}
+
+/*header/main*/
+
+.header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./img/header2.png);
+    background-color: #fff;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 30px;
+    margin-top: 100px;
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 4px 0 0 #131313;
+}
+
+.header p {
+    text-shadow: 2px 1px   black;
+    margin-bottom: 30px;
+    font-size: 21px;
+    color: white;
+    width: 680px;
+    padding: 0 150px;
+}
+
+/*boton main*/
+
+.btn {
+    display: inline-block;
+    margin-top: 3px;
+    padding: 10px 40px;
+    border: 2px solid #00718a;
+    color: #fff;
+    text-decoration: none;
+    background: #00718a;
+}
+
+.btn:hover {
+    background: none;
+    color: #00718a;
+}
+
+/*imagenes/main*/
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 50px 0;
+    background: #e5f5f8;
+}
+
+.sau h2{
+    color: #00718a;
+}
+
+.sau p{
+    color: #00718a;
+}
+
+.about {
+    background: #303030;
+    padding: 50px 0;
+}
+
+.box-container2{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.box-container2 .box {
+    width: 250px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    margin: 20px 20px;
+}
+.box-container2 .box img {
+    height: 200px;
+    width: 200px;
+    margin-top: -50px;
+    border: 6px solid #00718a;
+}
+
+.box-container2 .box h3 {
+    font-size: 20px;
+    color: #1d1d1d;
+    padding-top: 10px;
+}
+
+.box-container2 .box p {
+    width: 250px;
+    font-size: 18px;
+    color: #1d1d1d;
+    padding: 0;
+}
+
+/*footer*/
+
+.contact {
+    height: 20vh;
+    padding: 50px 0;
+    background: #171717;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.f-enlaces a {
+    color: #fff;
+    text-decoration: none;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.cajafot{
+    width: 300px;
+    margin-bottom: 20px;
+}
+    
+
+.parfot{
+    font-size: 12px;
+    color: #fff;
+}
+
+/*contacto*/
+
+.contactotit{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./img/Fondo2.png);
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+.principal{
+    font-size: 50px;
+}
+
+.principal h5{
+    color: #00718a;
+}
+
+.contacticon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 200px;
+}
+
+.contacticon a{
+    color: #00718a;
+    font-size: 100px;
+    margin: 20px;
+}
+/*galeria*/
+
+.galeriap{
+    width: 100%;
+    height: 100em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./img/Fondo2.png);
+    background-color: #e5f5f8;
+    background-size: cover;
+    background-position: center;
+}
+
+.galeriatitulo{
+    color: #00718a;
+    font-size: 50px;
+}
+
+.cajagaleria{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cajagaleria img{
+    width: 200px;
+    height: 200px;
+    border:solid #00718a;
+}
+
+.caja{
+    width: 700px;
+    height: 220px;
+    box-shadow: 0 5px 5px rgb(10, 109, 133, .9);
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+}
+
+
+
+.text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    height: 100px;
+}
+
+.caja2{
+    width: 700px;
+    height: 220px;
+    box-shadow: 0 5px 5px rgb(10, 109, 133);
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #fff;
+}
+
+.text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    height: 100px;
+}
+
+
+.cajagaleria h3{
+    font-size: 25px;
+}
+
+.cajagaleria p{
+    color: #131313;
+    font-size: 15px;
+}
+
+/* blog*/
+
+.blogprin{
+    width: 100%;
+    height: 100em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(./img/Fondo2.png);
+    background-color: #e5f5f8;
+    background-size: cover;
+    background-position: center;
+}
+
+.herobanner{
+    width: 100%;
+    height: 700px;
+    background-image: url(./img/arrugas.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fondo{
+    width: 75%;
+    height: 100em;
+    background-color: rgba(10, 109, 133 , .2);
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -60px;
+}
+
+.blogholder h4{
+    padding-top: 30px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.blogholder p {
+    color: #131313;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador APIs</title>
+    <link rel="stylesheet" href="./style2.css"> 
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./telefono.css" media="screen and (max-width: 640px)">
+</head>
+<body>
+    <nav class="head">
+        <script src="https://kit.fontawesome.com/6093f61d33.js" crossorigin="anonymous"></script>
+        <label class="logo">
+            <a href="./index.html"><img src="./img/Logo.png" alt=""></a>
+        </label>
+        <ul class="menuitems">
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="./galeria.html">Productos</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./cripto.html">Precio de criptomonedas</a></li>
+        </ul>
+    </nav>
+    <section class="main-section">
+        <h2>Cotizador de Criptomonedas</h2>
+        <div class="container">
+            <div class="image-side"></div>
+            <div class="form-side">
+                <form action="" id="form-search">
+                    <select id="moneda" name="moneda">
+                        <option value="">Elige tu moneda</option>
+                        <option value="USD">Dolar Estadounidense</option>
+                        <option value="MXN">Peso Mexicano</option>
+                        <option value="GBP">Libras</option>
+                        <option value="EUR">Euros</option>
+                    </select>
+    
+                    <select id="criptomonedas" name="criptomoneda">
+                        <option value="" >Elige tu criptomoneda</option>
+                    </select>
+    
+                    <input class="" type="submit" value="Cotizar" />
+                    <div class="container-answer"></div>
+            </div>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>
